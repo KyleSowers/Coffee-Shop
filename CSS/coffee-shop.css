@@ -135,7 +135,7 @@ body {
     flex-grow: 1;
     font-weight: normal;
     font-size: x-large;
-    color: white;
+    color: black;
     margin: 10px 20px 0 10px;
     justify-content: flex-end;
 }
@@ -172,17 +172,17 @@ h5 {
 
 .text-box {
     border: 3px #cc9900 solid;
-    background-color: rgba(111, 78, 55, 90%);
+    background-color: rgba(255, 255, 255, 66%);
     border-radius: 10px;
-    box-shadow: 12px 12px 0 rgba(204, 153, 0, 0.6);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 .mission-box {
-    box-shadow: -15px 15px 0 rgba(204, 153, 0, 0.7);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
 
 p {
-    color: white;
+    color: black;
     font-family: 'EB Garamond', cursive, serif;
     font-size: 18px;
     font-weight: 900;
