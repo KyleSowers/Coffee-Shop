@@ -65,7 +65,7 @@ function updateCoffees(x) {
     let selectedRoast = roastSelection.value;
     let filteredCoffees = [];
     coffees.forEach(function(coffee) {
-        if (coffee.roast === selectedRoast || selectedRoast === "all") {
+        if (coffee.roast === selectedRoast || selectedRoast === "All") {
             filteredCoffees.push(coffee);
         }
     });
@@ -84,6 +84,8 @@ function searchCoffees() {
     coffees.forEach(function(coffee) {
         if (coffee.name.toUpperCase().includes(searchRoast)) {
             filteredCoffees.push(coffee);
+        } else {
+            coffees.push(coffee);
         }
     });
     coffeeList.innerHTML = renderCoffees(filteredCoffees);
