@@ -9,10 +9,8 @@
 /*}*/
 
 body {
-    background-color: #6F4E37;
-    background: url("images/background.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background:  url("../images/background.jpg") no-repeat;
 }
 
 .nav-link {
